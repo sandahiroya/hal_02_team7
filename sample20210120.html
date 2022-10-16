@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" id="form">
+        <label for="text1">姓（必須）</label>
+            <input type="text" name="text1" size="20">
+        <br>
+        <label for="text2">名（必須）</label>
+            <input type="text" name="text2" size="20">
+        <br><input type="submit" value="実行" onclick = ent()>
+    </form>
+    <script>
+        $(function(){
+            $('#form').validate({
+                rules:{
+                    text1:{
+                        required:true
+                    },
+                    text2:{
+                        required:true,
+                        minlength:3
+                    }
+                },
+                messages:{
+                    text1:{
+                        required:"必須項目です"
+                    },
+                    text2:{
+                        required:"必須項目です",
+                        minlength:"３文字以上で入力してください"
+                    }
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>

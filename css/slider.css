@@ -1,0 +1,58 @@
+/*基本設定*/
+.slider {
+  padding: 0;
+}
+.slider img {
+  width: 50%;
+  height: auto;
+}
+.slick-slide {
+  height: auto;
+}
+.slick-prev {
+  left: 10px;
+  background:  #000;
+}
+.slick-next {
+  right: 10px;
+}
+.slick-prev,
+.slick-next {
+  z-index: 100;
+}
+.slick-prev::before,
+.slick-next::before {
+  font-size: 24px;
+  color: #000;
+}
+.slick-dots {
+  bottom: -40px;
+}
+
+/*一般的なスライダー*/
+.single {
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+.single img{
+  width: 50%;
+}
+
+/*複数枚表示のスライダー用*/
+.multiple {
+  padding: 0;
+}
+.multiple img {
+  width: 100%;
+}
+.multiple li {
+  margin: 0 5px;
+}
+.multiple .slick-next {
+  right: 17px;
+  z-index: 100;
+}
+.multiple .slick-prev {
+  left: 23px;
+  z-index: 100;
+}

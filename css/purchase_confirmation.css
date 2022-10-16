@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+}
+
+header{
+    background-color: #ED7478;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 40px;
+    letter-spacing: 0.3em;
+    margin-left: 50px;
+}
+
+main{
+    text-align: center;
+}
+
+td{
+    width: 33%;
+}
+
+#submit{
+    margin-top:30px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #ED7478;
+    width: 70px;
+    height: 40px;
+}

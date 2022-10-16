@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+}
+
+header{
+    background-color: #ED7478;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+header h1{
+    margin-left: 50px;
+    letter-spacing: 0.3em;
+    margin-left: 50px;
+}
+
+.name{
+    padding-left: 40%;
+    margin-top: 2%;
+}
+.price{
+    padding-left: 43%;
+    margin-top: 2%;
+}
+.img{
+    padding-left: 30%;
+    margin-top: 2%;
+}
+.detail{
+    padding-left: 40%;
+    margin-top: 2%;
+}
+#submit{
+    /* padding-left: ; */
+    margin-top:30px;
+    margin-left: 680px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #ED7478;
+    border: none;
+    width: 70px;
+    height: 40px;
+}
+.tax{
+    padding-left: 40%;
+}
