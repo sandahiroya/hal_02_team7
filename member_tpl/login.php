@@ -5,7 +5,7 @@
 </head>
 <body>
 <header>
-    <h1>ログイン</h1>
+    <h1>福袋フリーマケット</h1>
 </header>
 <main>
     <form action="login.php" method="post">
